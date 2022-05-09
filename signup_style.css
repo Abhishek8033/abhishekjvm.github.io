@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(background/signup.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0, 0.3);
+  background: #fff;
+  padding: 30px;
+  margin: 5% auto 0;
+  text-align: center;
+}
+.sign-up-form h1{
+    color: rgb(11, 135, 197);
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(37, 29, 29);
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color:rgb(11, 135, 197);
+    padding: 10px;
+}
+
+.home-btn:hover {
+    background-color: transparent;
+    border:2px solid rgb(11, 135, 197);
+}
+
+.signup-btn{
+    background-color: rgb(11, 135, 197);
+}
+.google-btn{
+    background-color: rgb(8, 8, 145);
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    padding-top: 18px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 100px;
+    margin-top: 50px;
+}
+.homebtn {
+	outline: none;
+    width: 60px;
+	border: none;
+	font-size: 16px;
+	margin: 0px 90%;
+	color: rgb(4, 8, 75);
+	padding: 2px 2px;
+	cursor: pointer;
+}
+.homebtn a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+
