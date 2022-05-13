@@ -1,8 +1,10 @@
 body {
-    background-image: url('image/blue-coup.jpg');
+    background-image: url('./image/tesst_img.png');
     /* background-repeat: no-repeat; */
     background-position: center;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     /* height: 1.5vh; */
 }
 
@@ -192,4 +194,105 @@ body {
 .pricingTable .read:hover:before,
 .pricingTable .read:hover:after{
     border-left-color: rgb(11, 135, 197);
+}
+
+
+.footer
+{
+	padding: 0px 60px;
+    margin-top: 0rem;
+	border-top:1px solid rgb(11, 135, 197);
+    background: #333;
+
+}
+
+.footer .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box
+{
+	width: 100%;
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+
+}
+  
+.footer .box-container .box h3
+{
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box p
+{
+    /* font-size: 1.5rem; */
+    padding:.7rem 0;
+    color: #eee;
+
+}
+
+.footer .box-container .box a
+{
+    display: block;
+    /* font-size: 1.5rem; */
+    padding:.7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a:hover
+{
+    color: rgb(11, 135, 197)    ;
+    text-decoration: underline;
+}
+
+.footer .box-container .box i
+{
+    display: block;
+    /* font-size: 3rem; */
+    padding:.7rem 0;
+    color: #eee;
+
+}
+
+.footer .box-container #icons
+{
+    
+    font-size: 3rem;
+    padding:.7rem 0;
+    
+
+}
+
+.footer .box-container .box i:hover
+{
+    color: rgb(11, 135, 197);
+
+}
+
+.footer .credit
+{
+    border-top: .1rem solid rgb(11, 135, 197);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+     font-size: 1rem; 
+    font-weight: normal;
+    color: #fff;
+
+}
+.footer .box-container .box i
+{
+    display: block;
+    font-size: 3rem;
+    padding:.7rem 0;
+    
+}
+.footer .credit span
+{
+    color:rgb(11, 135, 197);
 }
